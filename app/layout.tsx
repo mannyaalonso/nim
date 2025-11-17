@@ -17,10 +17,10 @@ export const metadata: Metadata = {
     canonical: '/'
   },
   title: {
-    default: 'Nim - Personal website template',
-    template: '%s | Nim'
+    default: 'HEX - Professional Drummer',
+    template: '%s | HEX'
   },
-  description:  'Nim is a free and open-source personal website template built with Next.js 15, React 19 and Motion-Primitives.',
+  description:  'Hector Morales (HEX) - Professional drummer with 20 years of experience. Currently touring with Tommy Royale. Based in Kissimmee, FL.',
 };
 
 const geist = Geist({
@@ -47,7 +47,7 @@ export default function RootLayout({
           enableSystem={true}
           attribute="class"
           storageKey="theme"
-          defaultTheme="system"
+          defaultTheme="dark"
         >
           <div className="flex min-h-screen w-full flex-col font-[family-name:var(--font-inter-tight)]">
             <div className="relative mx-auto w-full max-w-screen-sm flex-1 px-4 pt-20">
